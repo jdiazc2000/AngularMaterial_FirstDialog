@@ -1,0 +1,101 @@
+.body {
+  margin: 0px 50px;
+}
+
+.body h1 {
+  text-align: left;
+  margin-left: 0px;
+  font-weight: bold;
+}
+
+.body .Info {
+  margin-left: 10px;
+  width: 100%;
+}
+
+.body .Info .Info_Detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: start;
+}
+
+.body .Info_2 {
+  margin-left: 10px;
+  width: 250px;
+}
+
+.body .Info_2 .Line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.body .Info_2 .Line .Line_Result {
+  width: 100px;
+  font-weight: 600;
+}
+
+.body #customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.body #customers td, .body #customers th {
+  padding: 8px;
+}
+
+.body #customers tr:nth-child(1) {
+  border-bottom-style: dashed;
+}
+
+.body #customers th {
+  font-weight: 100;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.body .footer {
+  margin-top: 300px;
+  border-top: 1px gray solid;
+  text-align: center;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.body .footer .footer_buttons {
+  margin-top: 10px;
+}
+
+.body .footer .footer_buttons button {
+  margin: 0px 20px;
+  font-size: 20px;
+}
+
+.body .footer .footer_buttons button:nth-child(1) {
+  color: blue;
+  border: solid 0.1px blue;
+  background-color: white;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.body .footer .footer_buttons button:nth-child(2) {
+  color: white;
+  background-color: blue;
+  border: none;
+  padding: 9px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=app.component.css.map */
